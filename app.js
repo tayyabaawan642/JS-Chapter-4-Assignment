@@ -1,1 +1,17 @@
-document.write("Variable names can only contain number, $ and _. For Example $my_1stVariable" + "<br>" + " Variables must begin with a letter, $ or _. For example $name, _name or name" + "<br>" + "Variable names are case sensitive" + "<br>" + "Variable names should not be JS keywords");
+let variable1, variable2, variable3;
+
+//Legal Variable
+let firstName;
+let _age;
+let $alary;
+let totalAmount;
+let isValid;
+
+
+//Illegal Variable
+let 1stPlace;
+let first-name;
+let class;
+let var;
+let @home;
+
